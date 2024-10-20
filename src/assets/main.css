@@ -1,0 +1,17 @@
+@import './base.css';
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#app {
+  font-family: 'Roboto Condensed';
+}
+
+html,
+body,
+#app {
+  min-height: auto;
+  background-color: black;
+}
